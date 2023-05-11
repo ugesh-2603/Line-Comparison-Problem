@@ -61,9 +61,17 @@
             {
                 Console.WriteLine(" Both the line 1 and line 2 are equal");
             }
+            else if (length > length2)
+            {
+                Console.WriteLine(" Line1 is greater than Line2.");
+            }
+            else if (length < length2)
+            {
+                Console.WriteLine(" Line2 is greater than Line1.");
+            }
             else
             {
-                Console.WriteLine(" Both the line 1 and line 2 are not equal");
+                Console.WriteLine(" Both the lines are different");
             }
 
 
