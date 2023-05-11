@@ -57,7 +57,7 @@
 
             Console.WriteLine(" Length of given line is " + length2);
 
-            if (length.Equals(length2))
+            if (length == length2 )
             {
                 Console.WriteLine(" Both the line 1 and line 2 are equal");
             }
