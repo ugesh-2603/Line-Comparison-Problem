@@ -63,7 +63,23 @@ namespace Line_Comparison_Problem
             {
                 Console.WriteLine(" Both the line 1 and line 2 are equal");
             }
+<<<<<<< HEAD
            
+=======
+            else if (length > length2)
+            {
+                Console.WriteLine(" Line1 is greater than Line2.");
+            }
+            else if (length < length2)
+            {
+                Console.WriteLine(" Line2 is greater than Line1.");
+            }
+            else
+            {
+                Console.WriteLine(" Both the lines are different");
+            }
+
+>>>>>>> UC3
 
 
         }
