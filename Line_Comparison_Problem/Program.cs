@@ -1,4 +1,6 @@
-﻿namespace Line_Comparison_Problem
+﻿using System.ComponentModel.Design;
+
+namespace Line_Comparison_Problem
 {
     internal class Program
     {
@@ -61,11 +63,7 @@
             {
                 Console.WriteLine(" Both the line 1 and line 2 are equal");
             }
-            else
-            {
-                Console.WriteLine(" Both the line 1 and line 2 are not equal");
-            }
-
+           
 
 
         }
