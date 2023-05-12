@@ -14,16 +14,16 @@
 
             Console.WriteLine(" Calculate the length of line using given points");
             Console.WriteLine(" Please enter the First Point (x1):");
-            float.TryParse(Console.ReadLine(), out x1);
+            x1 = float.Parse(Console.ReadLine());
 
             Console.WriteLine(" Please enter the Second Point (x2):");
-            float.TryParse(Console.ReadLine(), out x2);
+            x2 = float.Parse(Console.ReadLine());
 
             Console.WriteLine(" Please enter the Third Point (y1):");
-            float.TryParse(Console.ReadLine(), out y1);
+            y1 = float.Parse(Console.ReadLine());
 
             Console.WriteLine(" Please enter the Fourth Point (y2):");
-            float.TryParse(Console.ReadLine(), out y2);
+            y2 = float.Parse(Console.ReadLine());
 
             length = (float) Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
 
